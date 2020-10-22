@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56c15d72-112d-4574-a106-82b33c388b06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/final_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_app/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_app/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_app/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport4all/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/offer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c22976fd-b5ab-4907-9d20-8efee153eb8a" />
+  <component name="ProjectId" id="1jEa1ccv5HByZzsFLJ1w6R14Qh7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="final_app" type="Python.DjangoServer" factoryName="Django server">
+      <module name="final_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="final_app.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56c15d72-112d-4574-a106-82b33c388b06" name="Default Changelist" comment="" />
+      <created>1603371490448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603371490448</updated>
+      <workItem from="1603371501674" duration="814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1266" height="176" key="GridCell.Tab.0.bottom" timestamp="1603372312908">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="1266" height="176" key="GridCell.Tab.0.bottom/54.27.1312.741@54.27.1312.741" timestamp="1603372312908" />
+    <state width="1266" height="176" key="GridCell.Tab.0.center" timestamp="1603372312907">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="1266" height="176" key="GridCell.Tab.0.center/54.27.1312.741@54.27.1312.741" timestamp="1603372312907" />
+    <state width="1266" height="176" key="GridCell.Tab.0.left" timestamp="1603372312907">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="1266" height="176" key="GridCell.Tab.0.left/54.27.1312.741@54.27.1312.741" timestamp="1603372312907" />
+    <state width="1266" height="176" key="GridCell.Tab.0.right" timestamp="1603372312907">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="1266" height="176" key="GridCell.Tab.0.right/54.27.1312.741@54.27.1312.741" timestamp="1603372312907" />
+    <state x="199" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603371762908">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="199" y="31" width="1022" height="737" key="SettingsEditor/54.27.1312.741@54.27.1312.741" timestamp="1603371762908" />
+  </component>
+</project>

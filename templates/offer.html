@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+</head>
+<html>
+<body>
+    <br>
+    <br>
+    <div style="text-align: center;"><h2>Oferta sklepu:</h2></div>
+    <br>
+        {% for instance in object_list %}
+            <ul>
+                <li>Nazwa produktu: {{ instance.product_name }}</li>
+                <li>Cena: {{ instance.product_price }}</li>
+            </ul>
+            <br>
+        {% endfor %}
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+</head>
+<html>
+<body>
+{% block content %}
+
+{% if user.is_authenticated %}
+
+    <br>
+    <br>
+    <div style="text-align: center;"><h2>Zalogowano pomyślnie! Witaj użytkowniku <span style="color: green">{{ user.username }}</span>!</h2></div>
+    <br>
+    <br>
+    <div style="text-align: center;"><h3>Historia zamowien:</h3></div>
+    <br>
+    <div style="text-align: center;">Aktualnie brak zamowień</div>
+    <br>
+    <br>
+    <div style="text-align: center;"><p><a href="{% url 'logout' %}">Wyloguj</a></p></div>
+
+{% else %}
+
+  <br>
+  <br>
+  <div style="text-align: center;"><h1><span>Witaj na stronie sklepu sport4All!</span></h1></div>
+    <br>
+    <br>
+    <h2 style="text-indent: 1in;">Menu:</h2>
+    <ul style="text-indent: 1in;">
+         <li><a href="{% url 'SingUpView' %}">Stwórz konto</a></li>
+         <li><a href="/login" class="dark" style="cursor: pointer;">Zaloguj się</a></li>
+         <li><a href="/offer/" class="dark" style="cursor: pointer;">Oferta sklepu</a></li>
+
+    </ul>
+
+{% endif %}
+
+</body>
+</html>
+{% endblock %}
